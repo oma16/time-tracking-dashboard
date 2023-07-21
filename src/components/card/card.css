@@ -27,6 +27,10 @@
   border-radius: 15px;
   background: #1c204b;
 }
+.card_2:hover{
+    background: #33397A;
+    cursor: pointer;
+}
 
 @media only screen and (max-width: 430px) {
   .card_1 {
