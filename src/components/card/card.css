@@ -1,0 +1,42 @@
+.card_1 {
+    display: flex;
+    flex-direction: column;
+  width: 255px;
+  height: 354px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #5747ea;
+  position: absolute;
+  z-index: 2;
+}
+.card_1a {
+    display: flex;
+    flex-direction: column;
+  width: 255px;
+  height: 518px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #1c204b;
+  position: absolute;
+  z-index: 1;
+}
+.card_2 {
+  width: 255px;
+  height: 199px;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #1c204b;
+}
+
+@media only screen and (max-width: 430px) {
+  .card_1 {
+    width: 327px;
+    height: 133px;
+    display: flex;
+    flex-direction: row;
+  }
+  .card_1a {
+    width: 327px;
+    height: 203px;
+  }
+}

@@ -1,0 +1,216 @@
+.timeTracking{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    width: 1170px;
+    margin-bottom: 130px;
+    margin-top: 70px;
+}
+.timeDetail{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px 30px;
+}
+.container1 {
+  position: relative;
+  width: 255px;
+  height: 518px;
+  flex-shrink: 0;
+  grid-area: seventh;
+}
+
+.container {
+  position: relative;
+  width: 255px;
+  height: 244px;
+  flex-shrink: 0;
+}
+
+.container-1 {
+  position: absolute;
+  z-index: 1;
+  width: 255px;
+  height: 160px;
+}
+.container-2 {
+  position: absolute;
+  z-index: 2;
+  margin-top: -117px;
+}
+
+.imgdesktop {
+    display: grid;
+     
+ }
+   .imgmobile {
+    display: none;
+     
+ }
+ .person{
+    width: 78px;
+    height: 78px;
+    margin: 30px;
+ }
+ .card-details{
+    display: flex;
+    padding-bottom: 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 131px;
+    
+ }
+ .report{
+    color: #BBC0FF;
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: -4px 0px;
+ }
+ .holderName{
+    margin: 39px 25px;
+    display: flex;
+    flex-direction: column;
+ }
+ .holder{
+    color: #FFF;
+font-family: Rubik;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin: 6px 0px;
+ }
+
+ .timing{
+color: #7078C9;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin: 12px 30px;
+ }
+ /* .timing:hover{
+    color:#FFF;
+    cursor: pointer;
+ } */
+ .timing:focus{
+    color: #FFF;
+ }
+ 
+ .cardDetails p{
+    color: #FFF;
+font-family: Rubik;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+ }
+.timeDetails{
+    margin-top: 365px;
+    display: flex;
+    flex-direction: column;
+}
+ .time {
+    display: flex;
+    flex-direction: column;
+ }
+ .time .hours{
+    color: #FFF;
+font-family: Rubik;
+font-size: 56px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+margin: 5px 0px 5px 30px;
+ }
+ .time .week{
+color: #BBC0FF;
+font-family: Rubik;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-left: 30px;
+ }
+
+@media only screen and (max-width: 1030px) {
+  .timeTracking{
+    width: 825px;
+  }
+  .timeDetail{
+    margin: 0px 0px;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .timeTracking{
+    width: 490px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .timeTracking {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container-1 {
+    width: 327px;
+    height: 160px;
+  }
+  .container-2 {
+    width: 327px;
+    height: 122px;
+  }
+  .container {
+    width: 327px;
+    height: 160px;
+  }
+  .imgdesktop {
+   display: none;
+    
+}
+.timeDetail{
+    justify-content: center;
+}
+  .imgmobile {
+   display: grid;
+    
+}
+  .container1 {
+    width: 327px;
+    height: 203px;
+  }
+  .time {
+    flex-direction: row;
+    justify-content: space-around;
+ }
+ .time .hours{
+   font-size: 32px;
+   margin: 5px 0px 5px 0px;
+}
+ .ellipsis{
+    margin-left: 83px;
+ }
+ .holderName {
+    margin: 52px -10px;
+ }
+ 
+ .report{
+    font-size: 15px;
+ }
+ .timeDetails {
+    margin-top: 140px;
+    flex-direction: row;
+    justify-content: center;
+}
+ .holder{
+    font-size: 24px;
+ }
+ 
+}
