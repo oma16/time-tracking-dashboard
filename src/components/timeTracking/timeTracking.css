@@ -4,8 +4,7 @@
     gap: 30px;
     justify-content: center;
     width: 1170px;
-    margin-bottom: 130px;
-    margin-top: 70px;
+    margin: 70px auto 130px auto;
 }
 .timeDetail{
     display: flex;
@@ -13,14 +12,14 @@
     gap: 30px;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0px 30px;
+    
 }
 .container1 {
   position: relative;
   width: 255px;
   height: 518px;
   flex-shrink: 0;
-  grid-area: seventh;
+  margin-left: 20px;
 }
 
 .container {
@@ -150,6 +149,9 @@ margin-left: 30px;
   }
   .timeDetail{
     margin: 0px 0px;
+  }
+  .container1{
+    margin-left: 0px;
   }
 }
 @media only screen and (max-width: 780px) {
