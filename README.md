@@ -10,8 +10,8 @@ Time Tracking App
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/oma16/time-tracking-dashboard/tree/master)
-- Live Site URL: [Add live site URL here](https://oma16.github.io/time-tracking-dashboard/)
+- Solution URL: [https://github.com/oma16/time-tracking-dashboard/tree/master](https://github.com/oma16/time-tracking-dashboard/tree/master)
+- Live Site URL: [https://oma16.github.io/time-tracking-dashboard/](https://oma16.github.io/time-tracking-dashboard/)
 
 ## My process
 
